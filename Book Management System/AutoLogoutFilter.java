@@ -1,4 +1,7 @@
 
+
+
+
 import java.io.IOException;
 import javax.servlet.Filter;
 import javax.servlet.FilterChain;
@@ -28,6 +31,10 @@ public class AutoLogoutFilter implements Filter {
     public void init(FilterConfig filterConfig) throws ServletException {
        // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
        System.out.println("AutoLogout Filter initialized");
+
+
+
+        
     }
 
     @Override
